@@ -29,16 +29,16 @@ state_size = 2+2+2+4
 
 action_size = 5  # discrete action space [up,down,left,right,dont move]
 
-testing = False  # render in testing
-render = False
+testing = True  # render in testing
+render = True
 
 n_episodes = 10 if  testing else 100000  # number of simulations
 n_steps = 300 if testing else 300  # number of steps
 
 saving_freq = 1000
 
-load_episode = 0
-
+load_episode = 5000
+ 
 output_dir = 'model_output/traffic/DPG_5v5_v3'
 
 # # ────────────────────────────────────────────────────────────────────────────────
