@@ -1,6 +1,5 @@
 # Traffic Optimization using Reinforcement Learning
 
-**Inzva AI Projects-2** 
 
 ## Aim
 We want to use Reinforcement Learning algorithms to optimize traffic 
